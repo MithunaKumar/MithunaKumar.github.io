@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+  <html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"href="https://www.w3schools.com/w3css/4/w3.css">
+   <body>
+
+<!--Change background to user's favorite color
+<input id="newCol" type="text" onKeyUp="changeBg();">
+
+<script>
+ changeBg() {
+   newCol = prompt("What color would you like the page's background to be?");
+   document.body.style.background = document.getElementById('newCol').value;
+}
+</script> -->
+
+<!-- Alert Box-->
+alert("Hello! Welcome to my website.")
+
+<!-- Heading with yellow shading -->
+<div class="w3-container w3-yellow">
+<h1> <font face = "times new roman" color = "deeppink">Girls Who Code Campus</font> </h1>
+</div>
+
+<!-- Subtitle -->
+<p> <font face = "times new roman" color = "hotpink"> We're learning to build our own websites!</font> </p>
+<!-- Name -->
+<h1> <font face = "times new roman" color = "darkviolet"> Name: Mithuna Kumar</font> </h1>
+<!--Profile Photo -->
+<img onmouseover="bigImg(this)" onmouseout="originalImg(this)" border="0" src="http://cliparting.com/wp-content/uploads/2017/01/Girl-clipart-free-images-3.jpg" alt="Profile Photo" style="width:150px;height:150px;">
+<!--Make profile photo larger on mousover-->
+<script>
+function bigImg(x) {
+    x.style.height = "250px";
+    x.style.width = "250px";
+}
+
+function originalImg(x) {
+    x.style.height = "150px";
+    x.style.width = "150px";
+}
+
+//Display role
+function Display() {
+document.getElementById("show").innerHTML = "My Role:</b> I am the creative director. I hope to learn about making effective and efficient decisions based on the views of everyone in my team. I hope that I can help with the design as well as the layout of the page to make it user friendly.";
+document.getElementById('ButtonID').style.visibility = 'hidden';
+}
+</script>
+
+<!-- Info about me -->
+<font face = "times new roman">
+<p> <b>Bio:</b> I am 16 years old. My birthday is May 1, 2001. In the future, I hope to major in computer science and international affairs and pursue a career as an intelligence analyst I also have a 6 year old chihuahua!</p>
+<p> <b>Likes:</b> Animals, photography, reading, stargazing, and spending time outdoors.</p>
+<p> <b>Dislikes:</b> Spiders and other bugs</p>
+<p> <b>Fun Fact:</b> My favorite novel is To Kill a Mockingbird by Harper Lee.</p>
+<p> The board will help us remain organized and track our progress. It could be helpful for other classes since it will help us understand what needs to be completed. We comprimised really well today. I hope to learn more about map tags.</p>
+<p> My goals for today inlcude immproving the accuracy of the map and linking a video. Our team goals include creating separate webpages. I want to get better at my HTML skills. Reflection: I achived all my goals today. I created a map that gives specific information on each state when clicked. I learned how to find coordinate easily by using a website. Tomorrow, I hope to help with creating the quiz.</p>
+<p> <b>Favorite Websites:</b> <a href="https://www.hewlett-woodmere.net/hhs">George W. Hewlett High School</a>
+<a href = "https://www.youtube.com/">Youtube</a> </p>
+</font>
+<!--Created paragraph to display role-->
+<p id="show"> </p>
+
+<!--Button to display role-->
+<button type="button" onclick="Display()" id = "ButtonID"> Check out my role! </button>
+
+</body>
+</html>
+<!--beginning part, SCREENSHOTS, EXPAND ABOUTME, change background color automatically-->
